@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
       <div className="relative z-10 max-w-4xl mx-auto space-y-8">
         <div className="w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full overflow-hidden border-4 border-electric-blue shadow-lg animate-fade-in">
           <img
-            src="/images/Srik-prfpic.png"
+            src="/Srik-prfpic.png"
             alt="Srikanth Gunti"
             className="w-full h-full object-cover"
             loading="lazy"
