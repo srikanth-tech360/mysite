@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col items-center">
           <div className="flex space-x-6 mb-6">
             <a 
-              href="https://linkedin.com/in/srikanth-gunti" 
+              href="https://www.linkedin.com/in/srikanthgunti-it/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-text-medium hover:text-electric-blue transition-colors duration-300"
