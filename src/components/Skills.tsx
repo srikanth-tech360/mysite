@@ -63,13 +63,13 @@ const Skills: React.FC = () => {
             <div
               key={index}
               ref={(el) => itemRefs.current[index] = el}
-              className="flex flex-col items-center opacity-0 translate-y-10 transition-all duration-500 group"
+              className="flex flex-col items-center opacity-0 translate-y-10 transition-all duration-500 group cursor-pointer"
               style={{ transitionDelay: `${index * 100}ms` }}
             >
-              <div className="mb-4 text-electric-blue transform transition-transform duration-300 group-hover:scale-125">
+              <div className="mb-4 p-4 rounded-xl bg-electric-blue/10 text-electric-blue transform transition-all duration-300 group-hover:scale-125 group-hover:bg-electric-blue group-hover:text-white group-hover:shadow-lg group-hover:shadow-electric-blue/30">
                 {skill.icon}
               </div>
-              <p className="text-center font-medium">{skill.name}</p>
+              <p className="text-center font-medium group-hover:text-electric-blue transition-colors duration-300">{skill.name}</p>
             </div>
           ))}
         </div>

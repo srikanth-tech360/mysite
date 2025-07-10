@@ -104,15 +104,15 @@ const Experience: React.FC = () => {
                 <div className={`ml-16 md:ml-0 md:w-1/2 ${
                   index % 2 === 0 ? 'md:pr-16' : 'md:pl-16'
                 }`}>
-                  <div className="bg-white text-dark-grey p-6 rounded-lg shadow-lg">
+                  <div className="bg-white text-dark-grey p-8 rounded-xl shadow-xl hover:shadow-2xl hover:shadow-electric-blue/10 transition-all duration-300 group">
                     <div className="mb-2 text-electric-blue font-bold">{exp.period}</div>
-                    <h3 className="text-xl font-bold mb-1">{exp.role}</h3>
+                    <h3 className="text-xl font-bold mb-1 group-hover:text-electric-blue transition-colors duration-300">{exp.role}</h3>
                     <p className="mb-4 text-gray-600">{exp.company}, {exp.location}</p>
                     <ul className="space-y-2">
                       {exp.responsibilities.map((resp, idx) => (
                         <li key={idx} className="flex items-start">
-                          <span className="inline-block w-2 h-2 rounded-full bg-electric-blue mt-2 mr-2"></span>
-                          <span>{resp}</span>
+                          <span className="inline-block w-2 h-2 rounded-full bg-electric-blue mt-2 mr-3 flex-shrink-0"></span>
+                          <span className="leading-relaxed">{resp}</span>
                         </li>
                       ))}
                     </ul>

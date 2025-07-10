@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
         
         <div className="space-y-4 animate-slide-up" style={{ animationDelay: '0.3s' }}>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-electric-blue">
-            Hi, I'm Sree
+            Hi, I'm Srikant
           </h1>
           <p className="text-xl md:text-2xl text-text-medium max-w-2xl mx-auto">
             Driving enterprise IT strategy & scalable solutions

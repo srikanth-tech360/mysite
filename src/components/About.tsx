@@ -42,12 +42,12 @@ const About: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center gap-12 md:gap-16">
           <div className="w-full md:w-1/3 flex-shrink-0">
             <div className="relative mx-auto w-64 h-64 md:w-80 md:h-80">
-              <div className="absolute inset-0 rounded-full bg-electric-blue opacity-10 transform scale-110"></div>
-              <div className="absolute inset-0 rounded-full overflow-hidden border-4 border-white/10">
+              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-electric-blue/20 to-blue-600/20 transform scale-110 animate-pulse"></div>
+              <div className="absolute inset-0 rounded-full overflow-hidden border-4 border-electric-blue/30 shadow-2xl shadow-electric-blue/20">
                 <img
                   src="https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                  alt="Sree Gunti portrait"
-                  className="w-full h-full object-cover"
+                  alt="Srikant Gunti portrait"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                 />
               </div>
@@ -55,14 +55,14 @@ const About: React.FC = () => {
           </div>
           
           <div className="w-full md:w-2/3">
-            <p className="text-lg leading-relaxed mb-6">
+            <p className="text-lg leading-relaxed mb-6 text-text-light/90">
               I'm a seasoned IT Solutions Architect & Technical Project Manager with 18+ years leading 
               .NET Core, Angular, SQL Server, Web API, distributed & cloud-native systems. I align tech 
               strategy with business goals, champion Agile/hybrid deliveries, and empower leaders with 
               Power BI insights.
             </p>
             
-            <p className="text-lg leading-relaxed mb-8">
+            <p className="text-lg leading-relaxed mb-8 text-text-light/90">
               With a passion for creating scalable, resilient systems, I excel at bridging the gap between 
               technical requirements and business objectives. My expertise spans enterprise architecture, 
               team leadership, and implementing cutting-edge solutions that drive organizational success.
@@ -72,7 +72,7 @@ const About: React.FC = () => {
               href="https://linkedin.com/in/srikanth-gunti" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-electric-blue hover:text-white transition-colors duration-300"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-electric-blue/10 text-electric-blue hover:bg-electric-blue hover:text-white rounded-xl border border-electric-blue/30 hover:border-electric-blue transition-all duration-300 hover:shadow-lg hover:shadow-electric-blue/30 hover:scale-105"
             >
               <Linkedin size={20} />
               <span className="font-medium">Connect on LinkedIn</span>

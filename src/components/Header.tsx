@@ -25,7 +25,6 @@ const Header: React.FC = () => {
     { name: 'Skills', href: '#skills' },
     { name: 'Experience', href: '#experience' },
     { name: 'Certifications', href: '#certifications' },
-    { name: 'Contact', href: '#contact' },
   ];
 
   return (
@@ -37,7 +36,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <a href="#" className="text-2xl font-bold text-electric-blue">
-            Sree Gunti
+            Srikant Gunti
           </a>
 
           {/* Desktop Menu */}

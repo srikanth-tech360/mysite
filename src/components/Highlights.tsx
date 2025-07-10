@@ -70,12 +70,12 @@ const Highlights: React.FC = () => {
             <div
               key={index}
               ref={(el) => cardRefs.current[index] = el}
-              className="bg-light-grey p-10 rounded-lg shadow-lg border border-transparent hover:border-electric-blue transition-all duration-500 opacity-0 translate-y-10"
+              className="bg-light-grey p-10 rounded-xl shadow-xl border border-transparent hover:border-electric-blue hover:shadow-2xl hover:shadow-electric-blue/10 transition-all duration-500 opacity-0 translate-y-10 group"
               style={{ transitionDelay: `${index * 200}ms` }}
             >
-              <div className="mb-6">{highlight.icon}</div>
-              <h3 className="text-xl font-bold mb-4">{highlight.title}</h3>
-              <p className="text-text-medium">{highlight.description}</p>
+              <div className="mb-6 transform group-hover:scale-110 transition-transform duration-300">{highlight.icon}</div>
+              <h3 className="text-xl font-bold mb-4 group-hover:text-electric-blue transition-colors duration-300">{highlight.title}</h3>
+              <p className="text-text-medium leading-relaxed">{highlight.description}</p>
             </div>
           ))}
         </div>
