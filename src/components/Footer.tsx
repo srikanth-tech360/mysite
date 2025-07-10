@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
           </div>
           
           <p className="text-text-medium text-center">
-            © {new Date().getFullYear()} Srikant Gunti. All rights reserved.
+            © {new Date().getFullYear()} Srikanth Gunti. All rights reserved.
           </p>
         </div>
       </div>
