@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
               <Github size={20} />
             </a>
             <a 
-              href="mailto:contact@sreegunti.com" 
+              href="mailto:srikanthg.leo@gmail.com" 
               className="text-text-medium hover:text-electric-blue transition-colors duration-300"
               aria-label="Email Contact"
             >
